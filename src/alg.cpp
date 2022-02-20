@@ -27,12 +27,14 @@ return i;
 }
 }
 }
+}
 
 uint64_t nextPrime(uint64_t value) {
 // вставьте код функции
 for (uint64_t i = value + 1;; ++i) {
 if (checkPrime(i)) {
 return i;
+}
 }
 }
 
